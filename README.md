@@ -31,6 +31,4 @@ The [config file](./config.json) has the following settings:
 
 ## License
 
-This software is licensed under the MIT license (see the [LICENSE](./LICENSE) file).
-
-By using this code, you assume all responsibility for any damages, additional charges, and all issues.
+This software is licensed under the MIT license (see the [LICENSE](./LICENSE) file). No warranty of any kind is expressed or implied by your use of this software.
