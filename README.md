@@ -4,7 +4,15 @@ This is a start of a collection of tools to use for collecting data via the Twit
 
 -   [Full-Archive Search](#Full-Archive-Search)
 
-Have an issue or question about this code? Let us know either in the [Issues section](https://github.com/texifter/tools-for-twitter/issues) or contact us at [github@texifter.com](mailto:github@texifter.com).
+## Requirements:
+* Python 3.7 or greater (preferably 3.9+)
+* For the Full-Archive Search, a [Twitter Academic Research Project Developer Account](https://developer.twitter.com/en/docs/projects/overview#product-track)
+
+## Installation
+* Clone the repository, or download the .zip (and unzip)
+* In your command line interface, change directory to the code
+* Create a virtual environment
+* Run `pip install -r requirements.txt`
 
 ## Full-Archive Search
 
@@ -32,3 +40,6 @@ The [config file](./config.json) has the following settings:
 ## License
 
 This software is licensed under the MIT license (see the [LICENSE](./LICENSE) file). No warranty of any kind is expressed or implied by your use of this software.
+
+## Contact Us
+Have an issue or question about this code? Let us know either in the [Issues section](https://github.com/texifter/tools-for-twitter/issues) or contact us at [github@texifter.com](mailto:github@texifter.com).
