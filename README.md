@@ -16,11 +16,11 @@ This is a start of a collection of tools to use for collecting data via the Twit
 
 ## Full-Archive Search
 
-(note: this requires a [Twitter Acacdemic Research product track license](https://developer.twitter.com/en/docs/twitter-api/tweets/search/introduction)), and uses the version 2 endpoints)
+(note: this requires a [Twitter Academic Research product track license](https://developer.twitter.com/en/docs/twitter-api/tweets/search/introduction), and uses the version 2 endpoints)
 
 Using the [run_twitter_search_all.py](./run_twitter_search_all.py) tool, you can search for and download Twitter data directly from the [search all API endpoint](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-all). The output will be written to the output directory as the raw json data as given to you by the Twitter API.
 
-The program also checks for rate limiting and will automatically wait and retry as needed indefinately.
+The program also checks for rate limiting and will automatically wait and retry as needed indefinitely.
 
 ### Usage:
 
