@@ -45,7 +45,7 @@ def get_result_set(bearer_token, query_params, next_token=None, page=1):
     headers = {'Authorization': f'Bearer {bearer_token}'}
     response = fetcher.get_or_wait(query_url, query_params=params_to_use, headers=headers)
     if response.code != 200:
-        raise Exception(f"error getting result set: {response.status_code}: {response.text}")
+        raise Exception(f"error getting result set: {response.code}: {response.data}")
     return response.data
 
 def load_configuration(config_file):
